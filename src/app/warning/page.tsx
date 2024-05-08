@@ -1,12 +1,15 @@
-import React from "react"
+"use client"
+import React, { useState } from "react"
+import Modal from "@/components/modal/page"
 
-export default function Page() {
+const Page: React.FC = () => {
   return (
     <main className="h-full w-full flex items-center justify-center">
       <div className="w-fit">
         <div className="flex justify-between items-center py-2">
           <div>Listagem de avisos</div>
-          <div>Criar aviso de cirurgia</div>
+
+          <Modal />
         </div>
         <div className="bg-[#fff] p-4 rounded-sm w-fit">
           <div className="table-auto table w-full">
@@ -36,3 +39,5 @@ export default function Page() {
     </main>
   )
 }
+
+export default Page
