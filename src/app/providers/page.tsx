@@ -1,4 +1,6 @@
-import React from "react"
+"use client"
+import React, { useState } from "react"
+import Modal from "@/components/modal/page_provider"
 
 export default function Page() {
   return (
@@ -6,7 +8,7 @@ export default function Page() {
       <div className="w-fit">
         <div className="flex justify-between items-center py-2">
           <div>Listagem de prestadores</div>
-          <div>Adicionar Prestador</div>
+          <Modal />
         </div>
         <div className="bg-[#fff] p-4 rounded-sm w-fit">
           <div className="table-auto table w-full">

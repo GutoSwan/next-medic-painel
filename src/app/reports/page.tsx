@@ -70,7 +70,7 @@ export default function Page() {
           <div>Histórico de relatórios</div>
         </div>
         <div className="bg-[#fff] p-4 rounded-sm w-fit">
-          <div className="table-auto table w-full">
+          <div className="table-auto table w-[150vh]">
             <div className="table-header-group">
               <div className="table-row">
                 <div className="table-cell px-4 font-bold py-5">Nome</div>
