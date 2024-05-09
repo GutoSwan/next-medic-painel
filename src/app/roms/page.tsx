@@ -9,13 +9,13 @@ export default function Page() {
           <div>Adicionar nova sala ou centro cirúrgico</div>
         </div>
         <div className="bg-[#fff] p-4 rounded-sm w-fit w-[100dvh]">
-          <div className="table-auto table w-full">
+          <div className="table-auto table w-[100vh]">
             <div className="table-header-group">
               <div className="table-row">
                 <div className="table-cell px-4 font-bold py-5">
                   Nome da sala
                 </div>
-                <div className="table-cell px-4 font-bold py-5">
+                <div className="table-cell ps-[50dvh] font-bold py-5">
                   Centro cirúrgico
                 </div>
               </div>

@@ -40,7 +40,7 @@ const Modal: React.FC = () => {
       <button onClick={openModal}>Adicionar prestador</button>
       {isModalVisible ? (
         <div className="absolute min-h-dvh min-w-full top-0 left-0 flex items-center justify-center">
-          <div className="bg-white rounded w-[766px] h-[450px]">
+          <div className="bg-white rounded w-[766px] h-[250px]">
             <h1 className="text-center text-2xl font-bold mb-4 mt-4 text-blue-500">
               Prestador
             </h1>
