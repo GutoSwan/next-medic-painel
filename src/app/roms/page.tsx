@@ -1,12 +1,14 @@
-import React from "react"
+"use client"
+import React, { useState } from "react"
+import Modal from "@/components/modal/page_rom"
 
 export default function Page() {
   return (
     <main className="h-full w-full flex items-center justify-center">
       <div className="w-fit">
         <div className="flex justify-between items-center py-2">
-          <div>Salas e Centros cirúrgicos</div>
-          <div>Adicionar nova sala ou centro cirúrgico</div>
+          <div>Nome da sala</div>
+          <Modal />
         </div>
         <div className="bg-[#fff] p-4 rounded-sm w-fit w-[100dvh]">
           <div className="table-auto table w-[100vh]">

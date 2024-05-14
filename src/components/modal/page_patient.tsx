@@ -118,18 +118,19 @@ const Modal: React.FC = () => {
                   onChange={(e) => setCns(e.target.value)}
                   className="border-black border-solid border-2 rounded px-1 py-1 w-[191px]"
                 />
-                <div className="flex flex-col w-full md:w-1/2">
-                  <label htmlFor="duration">Telefone:</label>
-                  <input
-                    type="text"
-                    id="duration"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    className="border-black border-solid border-2 rounded px-1 py-1 w-[191px]"
-                  />
-                </div>
               </div>
-              <div className="flex flex-col md:w-1/2">
+              <div className="flex flex-col w-full md:w-1/4">
+                <label htmlFor="duration">Telefone:</label>
+                <input
+                  type="text"
+                  id="duration"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="border-black border-solid border-2 rounded px-1 py-1 w-[191px]"
+                />
+              </div>
+
+              <div className="flex flex-col md:w-1/3">
                 <label htmlFor="patient">CEP:</label>
                 <input
                   type="text"
@@ -139,7 +140,7 @@ const Modal: React.FC = () => {
                   className="border-black border-solid border-2 rounded px-1 py-1  w-[223px]"
                 />
               </div>
-              <div className="flex flex-col w-full md:w-1/2">
+              <div className="flex flex-col w-full md:w-1/3">
                 <label htmlFor="duration">Estado civil:</label>
                 <input
                   type="text"
